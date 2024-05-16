@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+arr1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+arr2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+let input = prompt('Nhap zo day:');
+let kiemTra = false;
+function checkk(star) {
+for (let i = 0; i < arr1.length; i++) {
+	if (star !== arr1[i]) {
+    	kiemTra = true;
+    } else {
+    alert(arr2[i]);
+    } 
+}
+ if (kiemTra) {
+    alert('nhap ko dung');
+    }
+}
+checkk(input);
+</script>
+</body>
+</html>
