@@ -14,10 +14,14 @@ for (let i = 0; i < arr1.length; i++) {
     	kiemTra = true;
     } else {
     alert(arr2[i]);
+    kiemTra = false;
+    break;
     } 
 }
  if (kiemTra) {
     alert('nhap ko dung');
+    let input = prompt('Nhap zo day:');
+    checkk(input);
     }
 }
 checkk(input);
